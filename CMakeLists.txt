@@ -4,10 +4,10 @@ cmake_minimum_required(VERSION 3.10)
 project(Zephymail)
 
 # Include header files
-include_directories(include)
+include_directories(src/headers)
 
 # Add source files
-file(GLOB_RECURSE SOURCES "src/*.cpp")
+file(GLOB_RECURSE SOURCES "src/*.cpp" "src/sources/*.cpp")
 
 # Find GSASL and GnuTLS libraries
 find_library(GSASL_LIBRARY NAMES gsasl)
