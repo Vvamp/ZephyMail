@@ -1,4 +1,7 @@
 build/*
 .vscode/*
 example.cpp
-docs/
+docs/*
+
+# Exceptions
+!docs/CodeStyleGuide.md
