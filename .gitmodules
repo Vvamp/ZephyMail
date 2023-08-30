@@ -1,3 +1,6 @@
 [submodule "lib/vmime"]
 	path = lib/vmime
 	url = https://github.com/kisli/vmime.git
+[submodule "lib/cryptopp"]
+	path = lib/cryptopp
+	url = https://github.com/abdes/cryptopp-cmake
